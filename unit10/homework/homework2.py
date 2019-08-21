@@ -1,0 +1,17 @@
+# -*- coding: UTF-8 -*-
+##########################################################################
+# File Name: homework2.py
+# Author: Wang Yuan
+# mail: 853283581@qq.com
+# Created Time: 2019年08月21日 星期三 08时46分20秒
+#########################################################################
+#!/usr/bin/env python
+# coding=utf-8
+
+with open('learning_python.txt') as file:
+    lines = file.readlines()
+    for line in lines:
+        print(line)
+    for line in lines:
+        c = line.replace('Python','C')
+        print(c)
